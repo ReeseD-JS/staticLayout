@@ -13,8 +13,7 @@ button {
     font-weight: bold;
     font-size: 15px;
     letter-spacing: 1px;
-    color: #FFFFFF;
-    
+    color: #FFFFFF;  
     border: none;
 }
 
@@ -29,7 +28,7 @@ button {
     left:0;
     right: 0;
     position: absolute;
-    background-color: blue;
+    background-color: white;
     align-items: center;
     z-index: 1;
 }
@@ -51,10 +50,16 @@ button {
     background-color: black;
 }
 
+.trialNav2:hover {
+    box-shadow: 0 3px 4px rgba(33,33,33,.6);
+    top: 1px;
+}
+
 .loginNav3 {
     order: 3;
     position: absolute;
     right: 45px;
+    color: black;
     border: none;
     background: none;
 }
@@ -107,6 +112,12 @@ button {
     color: #000000;
     width: 280px;
     height: 55px;
+}
+
+.trialButtonItem4:hover {
+    box-shadow: 0 5px 11px rgba(33,33,33,.6);
+    position: relative;
+    bottom: 3px;
 }
 
 .tinyTextItem5 {
